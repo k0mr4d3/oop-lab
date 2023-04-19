@@ -1,0 +1,4 @@
+6.1
+- When the user chooses "Cancel", the program returns "You have chosen: No".
+- To change the dialog to show Yes/No options only, we can pass "JOptionPane.YES_NO_OPTION" as the 4th argument to the showConfirmDialog() call.
+- To change the Yes/No caption text, we can call the showOptionDialog() method and pass in the "Object[] options" object.
