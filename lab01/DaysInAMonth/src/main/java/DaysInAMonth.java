@@ -43,63 +43,76 @@ public class DaysInAMonth
             String strMonth = myInput.nextLine();
             String strYear = myInput.nextLine();
 
-            int year = Integer.parseInt(strYear);
+            int year;
 
-            if (Arrays.stream(validMonths).anyMatch(strMonth::equals))
+            if (strYear.matches("\\d+"))
             {
-                if (strMonth.equals("January") || strMonth.equals("Jan") || strMonth.equals("Jan.") || strMonth.equals("1"))
-                {
-                    System.out.println(31);
-                }
-                if (strMonth.equals("February") || strMonth.equals("Feb") || strMonth.equals("Feb.") || strMonth.equals("2"))
-                {
-                    if (isLeapYear(year))
-                        System.out.println(29);
-                    else
-                        System.out.println(28);
-                }
-                if (strMonth.equals("March") || strMonth.equals("Mar") || strMonth.equals("Mar.") || strMonth.equals("3"))
-                {
-                    System.out.println(31);
-                }
-                if (strMonth.equals("April") || strMonth.equals("Apr") || strMonth.equals("Apr.") || strMonth.equals("4"))
-                {
-                    System.out.println(30);
-                }
-                if (strMonth.equals("May") || strMonth.equals("5"))
-                {
-                    System.out.println(31);
-                }
-                if (strMonth.equals("June") || strMonth.equals("Jun") || strMonth.equals("6"))
-                {
-                    System.out.println(30);
-                }
-                if (strMonth.equals("July") || strMonth.equals("Jul") || strMonth.equals("7"))
-                {
-                    System.out.println(31);
-                }
-                if (strMonth.equals("August") || strMonth.equals("Aug") || strMonth.equals("Aug.") || strMonth.equals("8"))
-                {
-                    System.out.println(31);
-                }
-                if (strMonth.equals("September") || strMonth.equals("Sep") || strMonth.equals("Sept.") || strMonth.equals("9"))
-                {
-                    System.out.println(30);
-                }
-                if (strMonth.equals("October") || strMonth.equals("Oct") || strMonth.equals("Oct.") || strMonth.equals("10"))
-                {
-                    System.out.println(31);
-                }
-                if (strMonth.equals("November") || strMonth.equals("Nov") || strMonth.equals("Nov.") || strMonth.equals("11"))
-                {
-                    System.out.println(30);
-                }
-                if (strMonth.equals("December") || strMonth.equals("Dec") || strMonth.equals("Dec.") || strMonth.equals("12"))
-                {
-                    System.out.println(31);
-                }
+                year = Integer.parseInt(strYear);
 
-                break;
+                if (Arrays.stream(validMonths).anyMatch(strMonth::equals))
+                {
+                    if (strMonth.equals("January") || strMonth.equals("Jan") || strMonth.equals("Jan.") || strMonth.equals("1"))
+                    {
+                        System.out.println(31);
+                    }
+                    if (strMonth.equals("February") || strMonth.equals("Feb") || strMonth.equals("Feb.") || strMonth.equals("2"))
+                    {
+                        if (isLeapYear(year))
+                            System.out.println(29);
+                        else
+                            System.out.println(28);
+                    }
+                    if (strMonth.equals("March") || strMonth.equals("Mar") || strMonth.equals("Mar.") || strMonth.equals("3"))
+                    {
+                        System.out.println(31);
+                    }
+                    if (strMonth.equals("April") || strMonth.equals("Apr") || strMonth.equals("Apr.") || strMonth.equals("4"))
+                    {
+                        System.out.println(30);
+                    }
+                    if (strMonth.equals("May") || strMonth.equals("5"))
+                    {
+                        System.out.println(31);
+                    }
+                    if (strMonth.equals("June") || strMonth.equals("Jun") || strMonth.equals("6"))
+                    {
+                        System.out.println(30);
+                    }
+                    if (strMonth.equals("July") || strMonth.equals("Jul") || strMonth.equals("7"))
+                    {
+                        System.out.println(31);
+                    }
+                    if (strMonth.equals("August") || strMonth.equals("Aug") || strMonth.equals("Aug.") || strMonth.equals("8"))
+                    {
+                        System.out.println(31);
+                    }
+                    if (strMonth.equals("September") || strMonth.equals("Sep") || strMonth.equals("Sept.") || strMonth.equals("9"))
+                    {
+                        System.out.println(30);
+                    }
+                    if (strMonth.equals("October") || strMonth.equals("Oct") || strMonth.equals("Oct.") || strMonth.equals("10"))
+                    {
+                        System.out.println(31);
+                    }
+                    if (strMonth.equals("November") || strMonth.equals("Nov") || strMonth.equals("Nov.") || strMonth.equals("11"))
+                    {
+                        System.out.println(30);
+                    }
+                    if (strMonth.equals("December") || strMonth.equals("Dec") || strMonth.equals("Dec.") || strMonth.equals("12"))
+                    {
+                        System.out.println(31);
+                    }
+
+                    break;
+                }
+                else
+                {
+                    System.out.println("invalid month. try again");
+                }
+            }
+            else
+            {
+                System.out.println("invalid year. try again");
             }
         }
     }
