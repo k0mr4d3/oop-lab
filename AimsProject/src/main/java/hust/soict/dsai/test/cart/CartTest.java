@@ -1,4 +1,9 @@
-public class Aims {
+package hust.soict.dsai.test.cart;
+
+import hust.soict.dsai.aims.cart.Cart;
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
+public class CartTest {
     public static void main(String[] args) {
         Cart anOrder = new Cart();
 
@@ -10,8 +15,10 @@ public class Aims {
         anOrder.addDigitalVideoDisc(dvd2);
         anOrder.addDigitalVideoDisc(dvd3);
 
-        anOrder.removeDigitalVideoDisc(dvd2);
+        // anOrder.removeDigitalVideoDisc(dvd2);
 
-        System.out.printf("%.2f", anOrder.totalCost());
+        anOrder.printOrderedItems();
+
+        anOrder.searchById(0);
     }
 }
