@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc85b20-6cf8-4b2b-8bc5-7c18de29e9d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/Aims.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/store/StoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OtherProjects/lab03/Lab03Misc/src/main/java/hust/soict/dsai/garbage/ConcatenationInLoops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/CompactDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Disc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/test/store/StoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +45,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "last_directory_selection": "D:/src/oop-lab/AimsProject/src/main/java/hust/soict/dsai/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,8 +78,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683683621432</updated>
+      <workItem from="1686625347173" duration="3842000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
