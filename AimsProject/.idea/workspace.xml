@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc85b20-6cf8-4b2b-8bc5-7c18de29e9d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/media/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DvdWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/StoreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TestPassingParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hust/soict/dsai/aims/Aims.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hust/soict/dsai/aims/cart/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hust/soict/dsai/aims/disc/DigitalVideoDisc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hust/soict/dsai/aims/store/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CartTest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OtherProjects/lab05/GUIProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OtherProjects/lab05/GUIProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,24 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_directory_selection": "D:/src/oop-lab/AimsProject/src/main/java/hust/soict/dsai/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/src/oop-lab/AimsProject/src/main/java/hust/soict/dsai/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hust.soict.dsai.test.disc" />
