@@ -1,22 +1,24 @@
 package hust.soict.dsai.aims.cart;
 
 import hust.soict.dsai.aims.media.*;
+
+import javax.naming.LimitExceededException;
 import java.util.*;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private List<Media> itemsOrdered = new ArrayList<Media>();
 
-    public void addMedia(Media media) {
+    public String addMedia(Media media) throws LimitExceededException {
         if (itemsOrdered.size() >= MAX_NUMBERS_ORDERED) {
-            System.out.println("The cart is almost full");
+            throw new LimitExceededException("Cart is full");
         }
         else if (itemsOrdered.contains(media)) {
-            System.out.println("Already in cart");
+            return("Already in cart, why the hell are you even trying to add?");
         }
         else {
             itemsOrdered.add(media);
-            System.out.println("The media has been added");
+            return ("Media added");
         }
     }
 
